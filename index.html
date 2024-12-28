@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan Fayyaz - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Hassan Fayyaz"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Hassan Fayyaz">Hassan Fayyaz</h1>
+
+            <p class="title">Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:f2022387056@umt.edu.pk" class="contact-link"
+                  >f2022387056@umt.edu.pk</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+923067860614" class="contact-link"
+                  >+92 (306) 786-0614</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2004-02-06">February 06, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Batapur, Lahore, Pakistan</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/hassan.0624"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.x.com/hassan0624" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/hassan.0624"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello, this is me Hassan Fayyaz, studying Computer Science from
+              UMT. I am a full stack web developer who creates complete web
+              applications. I work on both the front-end, which is what user see
+              and interact with, and the back-end, which is the server and
+              database that make everything work smoothly. I enjoy turning ideas
+              into functional and beautiful websites that help businesses grow
+              in the digital world.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way. I created web design for many
+              famous brand companies.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Danish"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Danish
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Working with Hassan was a game-changer for our project.
+                      His expertise in both front-end and back-end development
+                      ensured our website was not only beautiful but also highly
+                      functional. We couldn't be happier with the results!" –
+                      Danish.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Zartashia"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Zartashia
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Hassan's ability to understand our needs and translate
+                      them into a seamless web application was impressive. His
+                      attention to detail and commitment to excellence made the
+                      entire process smooth and enjoyable." – Zartashia
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Laiba"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Laiba
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "From the initial concept to the final launch, Hassan was
+                      dedicated and professional. His skills in full stack
+                      development brought our vision to life, and the end
+                      product exceeded our expectations. Highly recommended!" –
+                      Laiba
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Hamza"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Hamza
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Hassan's work on our website was outstanding. His
+                      technical knowledge and creative approach helped us
+                      achieve a user-friendly and visually appealing site. We
+                      received numerous compliments from our clients and saw a
+                      significant increase in engagement." – Hamza
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Danish"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Danish</h4>
+
+                <time datetime="2021-06-14">26 December, 2024</time>
+
+                <div data-modal-text>
+                  <p>
+                    "Working with Hassan was a game-changer for our project. His
+                    expertise in both front-end and back-end development ensured
+                    our website was not only beautiful but also highly
+                    functional. We couldn't be happier with the results!" –
+                    Danish.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="https://www.piac.com.pk">
+                  <img src="./assets/images/logo-1-color.png" alt="PIA" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.nike.com">
+                  <img src="./assets/images/logo-2-color.png" alt="nike" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.apple.com">
+                  <img src="./assets/images/logo-3-color.png" alt="apple" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.zameen.com">
+                  <img src="./assets/images/logo-4-color.png" alt="Zameen" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.umt.edu.pk">
+                  <img src="./assets/images/logo-5-color.png" alt="UMT" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.daraz.pk">
+                  <img src="./assets/images/logo-6-color.png" alt="daraz" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Laurelbank School System</h4>
+
+                <span>2007 — 2020</span>
+
+                <p class="timeline-text">
+                  I completed my matriculation in Computer Science from
+                  Laurelbank School System. This foundational education sparked
+                  my passion for technology.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Aspire Group of Colleges</h4>
+
+                <span>2020 — 2022</span>
+
+                <p class="timeline-text">
+                  I then pursued my intermediate studies in Computer Science
+                  (ICS) at Aspire Group of Colleges. This further solidified my
+                  skills and knowledge in the field.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  University of Management & Technology
+                </h4>
+
+                <span>2022 — 2026</span>
+
+                <p class="timeline-text">
+                  I am currently studying at the University of Management and
+                  Technology (UMT), pursuing a Bachelor’s degree in Computer
+                  Science. This education is further enhancing my technical
+                  skills and providing me with a deep understanding of modern
+                  technologies.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Creative director</h4>
+
+                <span>2018 — 2020</span>
+
+                <p class="timeline-text">
+                  As the Creative Directive at <b>Audi,</b> I am dedicated to
+                  pushing the boundaries of automotive design and innovation. My
+                  vision is to blend cutting-edge technology with unparalleled
+                  aesthetics, creating vehicles that inspire and elevate the
+                  driving experience.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Art director</h4>
+
+                <span>2020 — 2022</span>
+
+                <p class="timeline-text">
+                  As the Art Director at <b>Lenovo,</b> I am committed to
+                  merging functionlity with artistry. My Goal is to craft
+                  devices that not only perform exceptionally but also captive
+                  the senses with their sleek and innovation designs.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web designer</h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  As a web developer at <b>Systems,</b> I am passionate about
+                  creating seamless and intuitive online experiences. My focus
+                  is on leveraging the largest technologies to build dynamic and
+                  user-friendly websites that meet the needs of our diverse
+                  clientele.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.zameen.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Zameen.com"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Zameen.com</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.meezanbank.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="meezanbank"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Meezan Bank</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.foodpanda.pk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="FoodPanda"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Food Panda</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://www.umt.edu.pk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="umt"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">UMT</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.haier.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="haier"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Haier</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.daraz.pk">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="daraz"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Daraz</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.piac.com.pk/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="piac"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PIA</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://www.nike.com/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.png"
+                      alt="nike"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Nike</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.apple.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="apple"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Apple</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://www.linkedin.com/in/hassan0624">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1a.png"
+                      alt="Portfolio of Hassan Fayyaz"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Portfolio</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-28">Dec 28, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Building a Full Stack Website
+                    </h3>
+
+                    <p class="blog-text">
+                      Hassan Fayyaz, the one and only good student in his class.
+                      As he submits all the labs assesments on time.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.codewithharry.com/">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2a.png"
+                      alt="Code With Harry"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-28">Dec 28, 2028</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Free Learning of Full Stack Website
+                    </h3>
+
+                    <p class="blog-text">
+                      This is the Best Resource to Learn Full Stack Website for
+                      FREE!
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://shorturl.at/Iryy9">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3a.png"
+                      alt="Hostinger"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Hostinger</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-29">Dec 28, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Use of Hostinger DBT (Data Build Tool)
+                    </h3>
+
+                    <p class="blog-text">
+                      Our Data Platform Team participated in Coalesce 2024, Las
+                      Vegas, the premier conference for analytics engineers.
+                      Coalesce brings together data practitioners to sharpen
+                      their skill…
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://shorturl.at/Odvvj">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4a.png"
+                      alt="GitHub Copilot in VS Code"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">GitHub</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-28">Dec 28, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      GitHub Copilot in VS Code
+                    </h3>
+
+                    <p class="blog-text">
+                      GitHub has a long history of offering free products and
+                      services to developers. Starting with free open source and
+                      public collaboration, we added free private repos, free
+                      minutes for GitHub Actions and GitHub Codespaces, and free
+                      package and release storage. Today, we are adding GitHub
+                      Copilot to the mix...
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://shorturl.at/YECdP">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5a.png"
+                      alt="How to register and start a business in Pakistan in 2025?"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Lahore</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-28">Dec 28, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      How to register and start a business in Pakistan in 2025?
+                    </h3>
+
+                    <p class="blog-text">
+                      Starting a business in Pakistan in 2025 requires
+                      navigating a series of essential steps to ensure legal
+                      compliance and operational readiness. From understanding
+                      the initial registration processes to obtaining necessary
+                      licenses and setting up financial systems, the whole
+                      process can be daunting.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://shorturl.at/Hgb6s">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6a.png"
+                      alt="Hackaday"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Hackaday</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-12-28">Dec 28, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Assessing Developer Productivity When Using AI Coding
+                      Assistants
+                    </h3>
+
+                    <p class="blog-text">
+                      We have all seen the advertisements and glossy flyers for
+                      coding assistants like GitHub Copilot, which promised to
+                      use ‘AI’ to make you write code and complete programming
+                      tasks faster than ever, yet how much of that has worked
+                      out since Copilot’s introduction in 2021? According to a
+                      recent report by code analysis firm Uplevel there are no
+                      significant benefits, while GitHub Copilot also introduced
+                      41% more bugs. Commentary from development teams suggests
+                      that while the coding assistant makes for faster writing
+                      of code, debugging or maintaining the code is often not
+                      realistic.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13594.550675832172!2d74.45647978760233!3d31.58898251529761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391911e64a7da0df%3A0x79a0ea1668a0b9b7!2sBata%20Pur%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1735213905615!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+                width="400" height="300" loading="lazy"
+              </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
